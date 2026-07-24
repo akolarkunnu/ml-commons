@@ -53,10 +53,10 @@ import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.CONTEX
 import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.EXAMPLES;
 import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.FINAL_ANSWER;
 import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.OS_INDICES;
-import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.TOOL_DESCRIPTIONS;
-import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.TOOL_NAMES;
 import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.THOUGHT;
 import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.THOUGHT_RESPONSE;
+import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.TOOL_DESCRIPTIONS;
+import static org.opensearch.ml.engine.algorithms.agent.MLChatAgentRunner.TOOL_NAMES;
 
 import java.util.ArrayList;
 import java.util.Arrays;
