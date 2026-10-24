@@ -369,9 +369,7 @@ public class SearchIndexTool implements Tool {
                 }
                 try {
                     String response = buildSimplifiedSearchResponse(r);
-                    if (StringUtils.isEmpty(response)) {
-                        listener.onResponse((T) "");
-                    } else if (outputParser != null) {
+                    if (outputParser != null) {
                         listener.onResponse((T) outputParser.parse(response));
                     } else {
                         listener.onResponse((T) response);
